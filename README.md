@@ -1,14 +1,14 @@
--Instalación de composer
+-Instalación de composer: 
 composer install
 
--Crear archivo .env
+-Crear archivo .env: 
 cp .env.example .env
 
--Generación de llave
+-Generación de llave: 
 php artisan key:generate
 
--Migración 
+-Migración: 
 php artisan migrate:fresh --seed
 
--Iniciar
+-Iniciar: 
 php artisan serve
